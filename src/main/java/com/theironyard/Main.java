@@ -1,5 +1,8 @@
 package com.theironyard;
 
+import sun.awt.UNIXToolkit;
+import sun.tools.jconsole.Plotter;
+
 /**
  * In this exercise you will create a tool that can convert between units of
  * length. For example, you can use this to calculate what 0.25 inches is in
@@ -17,13 +20,13 @@ public class Main {
             different units.
          */
         // todo: convert something
-
+Converter.convert(1000,Unit.CENTIMETER,Unit.FOOT);
 
         // todo: convert something else
-
+Converter.convert(400, Unit.MILE, Unit.KILOMETER);
 
         // todo: convert yet another thing
-
+Converter.convert(7, Unit.YARD, Unit.METER);
 
     }
 
