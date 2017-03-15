@@ -34,10 +34,10 @@ public class Converter {
             mile.
          */
 // todo: create a variable and set it to length times the number of millimeters in the unit
-        length = length * from.toMillimeters();
+        double myLength = length *= from.toMillimeters();
 
 // todo: return the result of dividing the length in millimeters by the number of millimeters in the unit we're convering to
-        return length / to.toMillimeters();
+        return myLength = length / to.toMillimeters();
 
     }
 }

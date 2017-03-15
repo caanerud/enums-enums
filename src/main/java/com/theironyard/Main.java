@@ -1,7 +1,6 @@
 package com.theironyard;
 
-import sun.awt.UNIXToolkit;
-import sun.tools.jconsole.Plotter;
+
 
 /**
  * In this exercise you will create a tool that can convert between units of
